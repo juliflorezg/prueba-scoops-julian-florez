@@ -1,0 +1,22 @@
+{
+  "name": "email_sender",
+  "version": "1.0.0",
+  "description": "nodejs project to send a template to an email",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "email",
+    "sender",
+    "template"
+  ],
+  "author": "julian florez",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "resend": "^4.0.1-alpha.0"
+  }
+}
