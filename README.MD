@@ -85,7 +85,7 @@ Esto ejecutará la aplicación de envío de correos con los parámetros por defe
 - `npm run build`: Compila la aplicación para producción
 - `npm run preview`: Previsualiza la aplicación compilada
 
-### Backend (NestJS)
+### Backend (NodeJS)
 
 - `npm run start`: Ejecuta la aplicación de NodeJS
 
