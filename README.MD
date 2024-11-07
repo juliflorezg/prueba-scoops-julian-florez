@@ -85,13 +85,7 @@ Esto ejecutará la aplicación de envío de correos con los parámetros por defe
 - `npm run build`: Compila la aplicación para producción
 - `npm run preview`: Previsualiza la aplicación compilada
 
-### Backend (NestJS)
+### Backend (NodeJS)
 
 - `npm run start`: Ejecuta la aplicación de NodeJS
-
-
-## Notas
-
-- Asegúrate de que el contenedor de Docker esté corriendo antes de iniciar el backend, ya que el servidor NestJS se conecta a la base de datos PostgreSQL.
-- Puedes detener los contenedores de Docker en cualquier momento con `docker-compose down`.
 
