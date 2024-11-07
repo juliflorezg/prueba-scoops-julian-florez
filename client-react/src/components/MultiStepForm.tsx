@@ -61,7 +61,6 @@ const MultiStepForm = ({ steps }: { steps: Steps }) => {
   };
 
   const handleInput = (input: any) => {
-    console.log({ value: input.value })
     setResponses((prev) => {
       const newResponses = { ...prev };
       newResponses[currentStep] = input.value.length > 0
