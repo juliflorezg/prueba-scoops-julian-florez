@@ -35,12 +35,12 @@ const MultiStepForm = ({ steps }: { steps: Steps }) => {
 
   useEffect(() => {
     setIsNextEnabled(responses[currentStep] && responses[currentStep].length > 0)
-  }, [responses])
+
+  }, [responses, currentStep])
 
   const totalSteps = steps.length;
   const step = steps[currentStep];
 
-  // Handles selection for single or multiple choice
   const handleSelect = (choice: string) => {
     setResponses((prev) => {
       const newResponses = { ...prev };
